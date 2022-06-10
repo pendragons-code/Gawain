@@ -1,6 +1,7 @@
 # Sir-Gawain
   Another tool written in python that can take screenshots :) 
   This tool is made for you to run on your target's computer!
+  Which means target's pc need to have python installed.
 
 # Details:
   This tool can take screenshots and send it to you! But note that you must manually delete the program and remove the image files at the end of the program's execution.
@@ -8,7 +9,8 @@
   
   The program is made to save screenshots in specific directory and you can manually transfer it to yourself via ssh (remember to delete keys or anything that leaves traces behind. It would also be adviced that you use a VPS/VPN (or both) to do this.).
   
-  This program has a feature where you can email yourself the images as a means of receiving it. (again, use a virtual/compromised handphone number to do this lol, if your email is registered to your phone number they can trace it back to you.). However there is one downfall. The emails may fail to send (remember these are still request and can look like a DDoS attack.), IT IS AGAINST MY ADVICE TO SET THE DELAY TO 0. Also the user will notice a lot of lag if the system is slower and older. Anyhow you should not do anything illegal and I am not liable for the weird shit you may choose to do.
+  This program has a feature where you can email yourself the images as a means of receiving it. (again, use a virtual/compromised handphone number to do this lol, if your email is registered to your phone number they can trace it back to you.). 
+  However, there is one downfall. The emails may fail to send (remember these are still request and can look like a DDoS attack.), and therefore IT IS AGAINST MY ADVICE TO SET THE DELAY TO 0. Also the user will notice a lot of lag if the system is slower and older. Anyhow you should not do anything illegal and I am not liable for the weird shit you may choose to do.
 
 # Installation 👾:
   Ubuntu/Debian (updates repos and upgrades, installs python-tk and scrot):
