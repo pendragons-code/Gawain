@@ -1,7 +1,8 @@
 # Sir-Gawain
-  Another tool written in python that can take screenshots :) 
-  This tool is made for you to run on your target's computer!
-  Which means target's pc need to have python installed.
+  Another tool written in python that can take screenshots :)   
+  This tool is made for you to run on your target's computer!   
+  Which means target's pc need to have python installed.    
+  But you should test it locally first.
 
 # Details:
   This tool can take screenshots and send it to you! But note that you must manually delete the program and remove the image files at the end of the program's execution.
