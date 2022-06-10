@@ -31,7 +31,7 @@ if metter == 2:
     emailfrom = input("Email address to send from!")
     passwordfrom = input("Password for email to send from!")
 
-
+fullname = '{}.png'.format(name)
 #email part:
 def mailer():
     newMessage = EmailMessage()
@@ -40,9 +40,18 @@ def mailer():
     newMessage['To'] = emailto
     newMessafe.set_content("Here are the screenshots you requested")
 
-    with smtplib.SMTP_SSL('smtp.gmail.com', 456) as smtp:
-        smtp.login(emailfrom, Password)
+    with open(fullname, 'rb') as f:
+        image_data = f.read()
+        image_type = imghdr.what(f.name)
+        image_name = f.name
+
+    newMessage.add_attachment(image_data, maintype='image', subtype=image_type, filename=image_name)
+
+    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
+    
+        smtp.login(emailfrom, passwordfrom)              
         smtp.send_message(newMessage)
+
 
 
 while (count != 0):
