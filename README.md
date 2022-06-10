@@ -12,6 +12,17 @@
   
   This program has a feature where you can email yourself the images as a means of receiving it. (again, use a virtual/compromised handphone number to do this lol, if your email is registered to your phone number they can trace it back to you.). 
   However, there is one downfall. The emails may fail to send (remember these are still request and can look like a DDoS attack.), and therefore IT IS AGAINST MY ADVICE TO SET THE DELAY TO 0. Also the user will notice a lot of lag if the system is slower and older. Anyhow you should not do anything illegal and I am not liable for the weird shit you may choose to do.
+  
+  Pls do request some features if needed. I will run a poll on my social media to see if a specific feature is worth implementing.
+
+
+  **Other downfalls include:**
+  Person shut's his PC down.
+  Have to manually delete the program (it is smarter like that so you can continue to work on if target turns his PC off)
+  Slow email
+  Obvious lag from repeated screenshots
+  Will not trick power users easily
+  Lack of automation
 
 # Installation 👾:
   Ubuntu/Debian (updates repos and upgrades, installs python-tk and scrot):
