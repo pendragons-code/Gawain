@@ -10,7 +10,6 @@ met = input("""
 [1]: Taking screenshots and sending it to a directory!
 [2]: Email you the screenshots (Screenshots will be saved locally if emails failed to get sent out.)!
 """)
-del = input("Delete this program after executing? [y/n]: ")
 d = input("Delay? :")
 c = input("Countdown?: ")
 n = input("How many times?: ")
