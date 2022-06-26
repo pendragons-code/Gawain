@@ -19,10 +19,10 @@
   **Other downfalls include:**
   Person shut's his PC down.
   Have to manually delete the program (it is smarter like that so you can continue to work on if target turns his PC off)
-  Slow email
-  Obvious lag from repeated screenshots
-  Will not trick power users easily
-  Lack of automation
+  Slow email    
+  Obvious lag from repeated screenshots   
+  Will not trick power users easily   
+  Lack of automation    
 
 # Installation 👾:
   Ubuntu/Debian (updates repos and upgrades, installs python-tk and scrot):
