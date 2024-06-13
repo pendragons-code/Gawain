@@ -44,6 +44,5 @@
   `It should also be noted I do not own any of the items above.`
   
  # Brazen and shameless ADs 🤷‍♂‍
- [Instagram](https://instagram.com/pendragonscode)    
- [Site](https://code.senghong.xyz)    
+ [Instagram](https://instagram.com/pendragonscode)
  [Patreon](https://www.patreon.com/Pendragonscode) (not a lot of content tho 😥)    
